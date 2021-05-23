@@ -4,7 +4,7 @@ import { ActionTypes } from './types';
 
 export interface Item {
   name: string;
-  checked: boolean;
+  check: boolean;
 }
 
 export interface ShoppingList {
@@ -17,7 +17,7 @@ export interface FetchShoppingListAction {
   payload: ShoppingList[];
 }
 
-const url = 'https://my-json-server.typicode.com/menyen/shopping-list-fe/lists';
+const url = 'http://localhost:10000/lists';
 
 export const fetchShoppingLists = () => {
   return async (dispatch: Dispatch) => {
