@@ -1,0 +1,12 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "items": [
+        { "name": "banana", "checked": true },
+        { "name": "xuxu", "checked": false },
+        { "name": "ovo", "checked": false }
+      ]
+    }
+  ]
+}

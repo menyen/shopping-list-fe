@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Dispatch } from 'redux';
 
-const url = 'https://mockend.com/menyen/shopping-list-fe/items';
+const url = 'https://my-json-server.typicode.com/menyen/shopping-list-fe/lists';
 
 export const fetchShoppingLists = () => {
   return async (dispatch: Dispatch) => {
